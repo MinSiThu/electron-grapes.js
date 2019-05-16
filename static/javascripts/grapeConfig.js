@@ -1,1 +1,3 @@
-import grapes from 'grapesjs';
+import grapesjs from 'grapesjs';
+
+console.log('grapes succesfully installed');

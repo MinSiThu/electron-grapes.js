@@ -5,20 +5,15 @@ let glob = require('glob');
 module.exports = {
      entry: glob.sync("./static/javascripts/*.js"),
      output: {
-         path: path.resolve(__dirname, './static/javascripts/build'),
+         path: path.resolve(__dirname, 'static','javascripts','build'),
          filename: 'app.bundle.js'
      },
      module: {
-         loaders: [
-             {
-                 test: /\.js$/,
-                 loader: 'babel-loader',
-                 query: {
-                     presets: ['es2015']
-                 }
-             }
-         ]
-     },
+        rules: [{
+            test: /\.js$/,
+            loader: ["babel-loader"],
+        }]
+    },
      stats: {
          colors: true
      },

@@ -1,5 +1,5 @@
 {
-  "name": "electron-grapes",
+  "name": "super-grapes",
   "version": "1.0.0",
   "description": "desktop apps for grapes.js",
   "main": "main.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MinSiThu/electron-grapes.js.git"
+    "url": "git+https://github.com/MinSiThu/super-grapes.js.git"
   },
   "keywords": [
     "grapes",
@@ -18,9 +18,9 @@
   "author": "min si thu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MinSiThu/electron-grapes.js/issues"
+    "url": "https://github.com/MinSiThu/super-grapes.js/issues"
   },
-  "homepage": "https://github.com/MinSiThu/electron-grapes.js#readme",
+  "homepage": "https://github.com/MinSiThu/super-grapes.js#readme",
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",

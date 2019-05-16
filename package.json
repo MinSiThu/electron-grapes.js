@@ -36,6 +36,7 @@
     "babel": "^6.23.0",
     "glob": "^7.1.4",
     "grapesjs": "^0.14.61",
+    "isomorphic-unfetch": "^3.0.0",
     "path": "^0.12.7"
   }
 }

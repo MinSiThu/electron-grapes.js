@@ -1,3 +1,3 @@
 import grapesjs from 'grapesjs';
 
-console.log('grapes succesfully installed');
+console.log('grapes successfully loaded');
